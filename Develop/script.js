@@ -45,7 +45,36 @@ passcodeRequirementsObj.passcodeLength = 0;
 result = "";
 // This checks to see if the password length is lesser than 8 char. or greater than 128 char.
 while (passcodeLength1 < 8 || passcodeLength1 > 128) {
-  
+  passcodeLength1 = prompt("To receive a secure generated password \nInput your desired length of your password you would like \n Note: Length must be a numerical value between 8 and 128.");
+// If the user were to click cancel and return a null value, the textbox will be changed to "Fine, good luck having a non-secure password"
+if (passwordLength1 === null) {
+  return "Fine, good luck having a non-secure password";
+}
+else {
+  // 'isFinite checks to see if the password length is a finite number
+  if (!isFinite(passcodeLength1)) {
+    alert("You did not enter a number... YOu know a number is a numerical value... i.e. 12345678");
+    return "Fine, good luck having a non-secure password";
+  }
+  else {
+  // Translates to "So if the input is a finite number, this code will run and check if the length is between 8 and 128"
+  if (passcodeLength1 < 8 || passcodeLength1 > 128) {
+    alert("You did not enter a number... YOu know a number is a numerical value... i.e. 12345678");
+    return "Fine, good luck having a non-secure password";
+  }
+  else {
+    // Calls function to show prompts of password criterias
+    showPrompts();
+    // Will keep looping to add characters until passwordLength is equivalent or greater to the length the user initially inputted
+    while (passcodeRequirementsObj.passcodeLength < passcodeLength1) {
+      // If statement used here to make sure the user selects at least one criteria, if they don't, they are alerted
+      if (lowerCase === false && upperCase === false && numbers === false && specialChar === false) {
+        alert("You must choose a minimum of one password type requirement whether it be uppercase, lowercase, numerical, or special.")
+        showPrompts();
+      }
+    }
+  }
+  }
 }
 
 }
