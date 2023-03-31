@@ -26,6 +26,26 @@ function writePassword() {
   passwordText.value = password;
 }
 
-// Add event listener to generate button
+// Add event listener to generate button. When the user clicks on the button, and the event of "click" is transpired, write password will activate.
 generateBtn.addEventListener("click", writePassword);
 
+// Oh boy, this is the big function block.
+// This function will be the essential core of this project
+function generatePassword() {
+// Var result took an exquisitely long time to learn
+var result = ""; // By storing a string value into the var, result, we can access the stored password from this function later.
+var lowerCase;
+var upperCase;
+var specialChar;
+var passcodeLength1;
+var numbers;
+// Declares characters
+passcodeLength = 0;
+passcodeRequirementsObj.passcodeLength = 0;
+result = "";
+// This checks to see if the password length is lesser than 8 char. or greater than 128 char.
+while (passcodeLength1 < 8 || passcodeLength1 > 128) {
+  
+}
+
+}
