@@ -60,7 +60,7 @@ function generatePassword() {
         // Translates to "So if the input is a finite number, this code will run and check if the length is between 8 and 128"
         if (passcodeLength1 < 8 || passcodeLength1 > 128) {
           alert(
-            "You did not enter a number... YOu know a number is a numerical value... i.e. 12345678"
+            "You did not enter a number... You know a number is a numerical value... i.e. 12345678"
           );
           return "Fine, good luck having a non-secure password";
         } else {
