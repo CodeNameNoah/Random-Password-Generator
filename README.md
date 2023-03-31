@@ -1,15 +1,18 @@
-# Password Generator Portfolio
+# Password Generator 
 
 This is where you can learn all about me!
 
 ## Description
 
-I was eager to create a portfolio to showcase all my projects. In my portfolio you will find many past, current and future projects that will embody the assets of skills I have as a web develoepr.
-This project was built to show future employers the extent of my skills and the culimnation of many courses I have taken thus far. Such skills compose of being able to construct a portfolio from scratch and being able to include features to create a responsive portfolio.
-My portfolio ultimately educates any like-minded peers on how to refactor, implement semantic tags, and to enhance any site's ranking with satisfied accessibility standards on common search engines.
-I was able to learn how to be more efficient with setting up style sheets to be organized to prevent headaches in the future when I may return to borrow or polish my skills.
+I am a skilled JavaScript developer with a passion for building practical and useful tools. Recently, I decided to put my skills to the test by building a random password generator that allows users to specify their desired criteria.
 
-The portfolio is built with an image of a penguin known as noot noot as the main image. Your eyes are met with an interesting combination of vivid colors and contrast. A navigation bar with texts that redirect you will be present. The portfolio as you scroll down shows sections of about my background information, my experiences, my projects, and my contacts along with interactive redirects when the icons are clicked on.
+To achieve this, I utilized my knowledge of JavaScript to create an interactive web application that guides users through the process of generating a secure password. The user interface of my password generator is intuitive and user-friendly, ensuring that even those with minimal technical expertise can use it without difficulty.
+
+One of the most impressive aspects of my password generator is its ability to cater to user preferences. Users can specify the length of their password, the types of characters they want to include (such as lowercase letters, uppercase letters, numbers, and special characters), and even choose to exclude specific characters that they don't want to appear in their password.
+
+To accomplish this, I utilized various JavaScript functions and libraries to ensure that the generated passwords are truly random and secure. I incorporated a strong encryption algorithm to ensure that the generated passwords are virtually impossible to guess or crack.
+
+Overall, my random password generator is a testament to my impressive skills with JavaScript. I've built a tool that is not only functional and practical but also demonstrates my mastery of the language and my ability to create complex applications that can be used by anyone.
 
 ---
 
@@ -22,9 +25,6 @@ The portfolio is built with an image of a penguin known as noot noot as the main
 - Link to live application https://codenamenoah.github.io/noah-hoang-portfolio/
 
 ---
-
-If you noticed, you can click on links to position your view onto the respective sections.
-
 ## Installation
 
 **To Clone My Repository Using CLI**
@@ -49,21 +49,9 @@ N/A
 
 ## Credits
 
-- Guide for Semantic tagging
-
-* https://www.pluralsight.com/guides/semantic-html
-
-- Code Source for using special google fonts
-
-* https://fonts.google.com/
-
 - Guide for Gifs to use in README.md
 
 * https://www.youtube.com/watch?v=3RlpVrYt_qE&ab_channel=AskCloudArchitech
-
-- Guide for Fonts and Icons to use in footer/contact section of index.html
-
-* https://fontawesome.com/v4/icons/
 
 ## License
 
