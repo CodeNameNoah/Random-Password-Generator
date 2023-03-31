@@ -16,13 +16,13 @@ Overall, my random password generator is a testament to my impressive skills wit
 
 ---
 
-## Take A Look At My Website!
+## Take A Look At My Application!
 
-![Noah Hoang _ Portfolio](https://user-images.githubusercontent.com/127361736/228078346-7f0b4f74-c5af-4fbc-837c-60d623824d23.gif)
+![Password Generator](https://user-images.githubusercontent.com/127361736/229030751-e962478e-1ce7-4795-8463-1ffa12bc39a2.gif)
 
 ## Links
 
-- Link to live application https://codenamenoah.github.io/noah-hoang-portfolio/
+- Link to live application https://codenamenoah.github.io/Random-Password-Generator/
 
 ---
 ## Installation
@@ -31,7 +31,7 @@ Overall, my random password generator is a testament to my impressive skills wit
 
 1. Click on the green code button and copy the link for the SSH key.
 2. Once clip-boarded load up a command line interface and change directory to one of your preference
-3. Enter in the command `git clone git@github.com:CodeNameNoah/noah-hoang-portfolio.git`
+3. Enter in the command `git clone git@github.com:CodeNameNoah/Random-Password-Generator.git`
 4. Enter your protected SSH password
 5. Enjoy!
 
@@ -45,7 +45,14 @@ Overall, my random password generator is a testament to my impressive skills wit
 
 ## Usage
 
-N/A
+1. Click on the link to the live application of the Password Generator
+2. Click on "Generate Password"
+3. A prompt appears urging the user to put in a number between 8 and 128
+4. After you have input a valid number, click OK
+5. Another prompt appears to ask whether you would like to include lowercase letters in the creation of your password
+6. Accept or Decline for each prompt
+7. Once four criterias for the password has been set, your secure password will be generated
+8. Enjoy!
 
 ## Credits
 
