@@ -25,6 +25,7 @@ Overall, my random password generator is a testament to my impressive skills wit
 - Link to live application https://codenamenoah.github.io/Random-Password-Generator/
 
 ---
+
 ## Installation
 
 **To Clone My Repository Using CLI**
@@ -59,6 +60,18 @@ Overall, my random password generator is a testament to my impressive skills wit
 - Guide for Gifs to use in README.md
 
 * https://www.youtube.com/watch?v=3RlpVrYt_qE&ab_channel=AskCloudArchitech
+
+- Guide for pop-up windows: Prompt, Alert, Confirm
+
+* https://www.w3schools.com/js/js_popup.asp
+
+- Guide for While Loops
+
+* https://www.w3schools.com/js/js_loop_while.asp
+
+- Guide for !isFinite uses
+
+* https://www.w3schools.com/jsref/jsref_isfinite.asp
 
 ## License
 
